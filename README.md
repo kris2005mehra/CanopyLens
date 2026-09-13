@@ -231,32 +231,3 @@ canopylens/
     └── interview_prep.md       # Technical defense & interview Q&A
 ```
 
----
-
-## ☁️ Deployment Guide
-
-### Deploying to Hugging Face Spaces (Recommended)
-
-1. Create a new Space on [Hugging Face Spaces](https://huggingface.co/spaces).
-2. Choose **Streamlit** as the Space SDK and select the **CPU Basic (Free, 16 GB RAM)** hardware tier.
-3. Push this repository to the Hugging Face Space remote:
-   ```bash
-   git remote add space https://huggingface.co/spaces/YOUR_USERNAME/CanopyLens
-   git push space main
-   ```
-4. Hugging Face Spaces automatically reads `packages.txt` and `requirements.txt` to configure the environment and launch `app.py`.
-
----
-
-## 🤖 AI Coding Tools Acknowledgment
-
-In accordance with hackathon rules:
-- **AI Coding Tools Used**: Google Antigravity Agentic Assistant / Gemini models were utilized for rapid scaffolding, modular pipeline structuring, and technical documentation drafting.
-- All core algorithms, mathematical conversions, and architectural trade-offs were verified and validated for scientific integrity.
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-The DeepForest model weights are distributed by the Weecology Lab under the MIT License.
