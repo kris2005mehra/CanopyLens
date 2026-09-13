@@ -1,0 +1,15 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+deepforest>=1.3.0
+streamlit>=1.28.0
+opencv-python-headless>=4.8.0
+numpy
+pandas
+Pillow
+matplotlib
+rasterio
+shapely
+pyproj
+lxml
+scikit-image
