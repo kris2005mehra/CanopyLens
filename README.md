@@ -32,7 +32,7 @@ Forest conservationists, ecological researchers, and carbon monitoring initiativ
 
 ---
 
-## ✨ Features
+## Features
 
 - **Multi-Format Ingestion**: Supports standard RGB images (`.png`, `.jpg`, `.jpeg`) as well as geospatial rasters (`.tif`, `.tiff`).
 - **Pretrained Ecological AI**: Utilizes DeepForest (RetinaNet with ResNet-50 backbone), trained on airborne RGB data across the National Ecological Observatory Network (NEON).
@@ -45,7 +45,7 @@ Forest conservationists, ecological researchers, and carbon monitoring initiativ
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
 - **Hosted Application**: *(Deployable to Hugging Face Spaces / Streamlit Community Cloud)*
 - **Repository**: [https://github.com/kris2005mehra/CanopyLens](https://github.com/kris2005mehra/CanopyLens)
